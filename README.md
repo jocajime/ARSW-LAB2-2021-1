@@ -1,8 +1,10 @@
 
 ### Escuela Colombiana de Ingeniería
 
+### Joel Arturo Carvajal Jimenez
+
 ### Arquitecturas de Software – ARSW
-## Laboratorio Programación concurrente, condiciones de carrera, esquemas de sincronización, colecciones sincronizadas y concurrentes - Caso Dogs Race
+## Laboratorio Programación concurrente, condiciones de carrera, esquemas de sincronización, colecciones sincronizadas y concurrentes - Caso Dogs Race - Solucion
 
 ### Descripción:
 Este ejercicio tiene como fin que el estudiante conozca y aplique conceptos propios de la programación concurrente.
@@ -64,10 +66,13 @@ Parte III
     podrían salir resultados válidos, pero en otros se pueden presentar
     dichas inconsistencias). A partir de esto, identifique las regiones
     críticas () del programa.
+	
+	1. la parte critica del programa respecto al problema es al momento de modificar la ultima posición alcanzada, diferentes hilos están accediendo a esta información al mismo tiempo así accediendo a información falsa.
 
 3.  Utilice un mecanismo de sincronización para garantizar que a dichas
     regiones críticas sólo acceda un hilo a la vez. Verifique los
     resultados.
+	
 
 4.  Implemente las funcionalidades de pausa y continuar. Con estas,
     cuando se haga clic en ‘Stop’, todos los hilos de los galgos
