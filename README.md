@@ -26,6 +26,8 @@ nucleos antes de iniciar el programa:
 
 3. Lo que se le ha pedido es: debe modificar la aplicación de manera que cuando hayan transcurrido 5 segundos desde que se inició la ejecución, se detengan todos los hilos y se muestre el número de primos encontrados hasta el momento. Luego, se debe esperar a que el usuario presione ENTER para reanudar la ejecución de los mismo.
 
+![](https://github.com/jocajime/ARSW-LAB2-2021-1/blob/main/img/5segundos.PNG)
+
 
 
 ### Parte II 
